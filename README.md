@@ -23,8 +23,6 @@ Both static information of the crypto and its latest listings will be the main e
 For consuming the APIs it will be used the python language with the libraries(?) requests and json. \
 The request library in important because is the one who help the program to interact with the API. Nevertheless the json library is equally important because this is the data format of the endpoint response.
 
-atach endpoint responses?
-
 
 
 ## Backend
@@ -34,7 +32,7 @@ For the backend development  Python was used. The library requests was essential
 The code itself is divided in 4 functions; the first one is used to call both of the CoinMarketCap APIs endpoints. The second function is used to consume this APIs and to render a small web app with html. &#x20;
 
 The first function it's called call\_api and it's essentially used to interact with the API itself. \
-This one gets two parameters,  called type and symbol. The first parameter is used for the program to know which endpoint to use, either the latest listing or the statistic information. The second parameter is used for consuming a specific crypto coin statistic information by its symbol, such as, BTC, ETH or ADA.  (Explicar el codigo con detalle?)
+This one gets two parameters,  called type and symbol. The first parameter is used for the program to know which endpoint to use, either the latest listing or the statistic information. The second parameter is used for consuming a specific crypto coin statistic information by its symbol, such as, BTC, ETH or ADA. &#x20;
 
 The second function its called filtered data and has two parameters data and symbol. The importance of this function lies in consuming a dictionary from the latest listings endpoint and filtering the data with the symbol of the crypto coin (BTC, ETH, ADA, SOL).
 
@@ -59,13 +57,6 @@ This development can eventually change with the opinion of a UX/UI expert that c
 The web app can possibly suffer some improvements in areas like the design of the webpage or the functionalities of this one. \
 Also the app can consume more APIs and present more relevant information regarding to crypto knowledge.\
 Further improvements will be made along new functionalities.
-
-## Potential of the web app
-
-The true potential of this app lies in the adaptability to the CPA (Cost per action) or CPC (cost per click) business model where the app would offer different courses (showed on screen with an API) and charge commission each time an third party enters to the app or does a course.
-
-The potential of the Web App is countless, the  develop a freemium business model could be a great alternative. Where the app can potentially offer free basic services in the beginning, with a lot of information of crypto currencies are published but if the consumer want to dig deeper they can make different different courses with a monthly membership payment. \
-With the development of this business model, the web app would have to mutate from an API Centric Web App to a regular app that consumes APIs, more over the owners would have to choose to develop online courses of its own. (CAMBIAR LAS PALABRAS, ME GUSTA LA IDEA)
 
 ## Documentation
 
