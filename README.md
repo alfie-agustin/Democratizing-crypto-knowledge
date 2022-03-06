@@ -21,7 +21,7 @@ API is the acronym for Application Programming Interface, which is a software in
 Both static information of the crypto and its latest listings will be the main endpoints consumed  through the CoinMarketCap API.&#x20;
 
 For consuming the APIs it will be used the python language with the libraries requests and json. \
-The request library in important because is the one who help the program to interact with the API. Nevertheless the json library is equally important because this is the data format of the endpoint response.
+The request library is important because is the one who help the program to interact with the API. Nevertheless the json library is equally important because this is the data format of the endpoint response.
 
 ## Backend
 
@@ -30,14 +30,14 @@ For the backend development  Python was used. The library requests was essential
 The code itself is divided in 4 functions; the first one is used to call both of the CoinMarketCap APIs endpoints; the second and third functions are used to manipulate the data; the fourth function is to dynamically create the web page.
 
 The first function it's called call\_api and it's essentially used to interact with the API itself. \
-This one gets two parameters,  called type and symbol. The first parameter is used for the program to know which endpoint to use, either the latest listing or the statistic information. The second parameter is used for consuming a specific crypto coin statistic information by its symbol, such as, BTC, ETH or ADA. &#x20;
+This one gets two parameters,  called type and symbol. The first parameter is used for the program to know which endpoint to use, either the latest listing or the static information. The second parameter is used for consuming a specific crypto coin information by its symbol, such as BTC, ETH or ADA. &#x20;
 
 The second function its called filtered data and has two parameters data and symbol. The importance of this function lies in consuming a dictionary from the latest listings endpoint and filtering the data with the symbol of the crypto coin (BTC, ETH, ADA, SOL).
 
 The third function is called coin\_dictionary. The function is used for creating dictionaries with relevant info of specific coins, such as price, logo, slug, description, the source code and the websites.
 
 For the fourth function its necessary to import flask and its dependencies.\
-This function it's called html, and is the one responsible for consuming the API and interact with the frontend. The function itself do not get any parameters and the main purpose of this is to generates the dictionaries with the coin\_dictiornary function, to get the top 10 listings and render this info in the html web page.
+This function it's called html, and is the one responsible for consuming the API and interact with the frontend. The function itself do not get any parameters and the main purpose of this is to generates the dictionaries with the coin\_dictiornary function or to get the top 10 listings.This information will be render at the end of the code into a html web page.
 
 ## Frontend
 
