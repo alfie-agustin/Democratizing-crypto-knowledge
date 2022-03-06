@@ -56,7 +56,7 @@ Further improvements will be made along new functionalities.
 
 The potential of this app lies in the adaptability to the CPA (Cost per action) or CPC (cost per click) business model where the app would offer different courses (consumed and present on screen with an API) and charge (commission or percentage) each time a user enters to the app or does a course.
 
-## Documentation
+## Extra documentation
 
 Python: [https://docs.python.org/3/](https://docs.python.org/3/)
 
