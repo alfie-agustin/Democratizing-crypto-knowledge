@@ -20,7 +20,7 @@ API is the acronym for Application Programming Interface, which is a software in
 
 Both static information of the crypto and its latest listings will be the main endpoints consumed  through the CoinMarketCap API.&#x20;
 
-For consuming the APIs it will be used the python language with the libraries(?) requests and json. \
+For consuming the APIs it will be used the python language with the libraries requests and json. \
 The request library in important because is the one who help the program to interact with the API. Nevertheless the json library is equally important because this is the data format of the endpoint response.
 
 
