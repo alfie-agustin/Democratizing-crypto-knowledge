@@ -27,7 +27,7 @@ The request library in important because is the one who help the program to inte
 
 For the backend development  Python was used. The library requests was essential to the program because allowed to this one to interact with the API and their exceptions. Moreover flask was used; a framework written in python that allows to create a web page.&#x20;
 
-The code itself is divided in 4 functions; the first one is used to call both of the CoinMarketCap APIs endpoints. The second function is used to consume this APIs and to render a small web app with html. &#x20;
+The code itself is divided in 4 functions; the first one is used to call both of the CoinMarketCap APIs endpoints; the second and third functions are used to manipulate the data; the fourth function is to dynamically create the web page.
 
 The first function it's called call\_api and it's essentially used to interact with the API itself. \
 This one gets two parameters,  called type and symbol. The first parameter is used for the program to know which endpoint to use, either the latest listing or the statistic information. The second parameter is used for consuming a specific crypto coin statistic information by its symbol, such as, BTC, ETH or ADA. &#x20;
