@@ -23,8 +23,6 @@ Both static information of the crypto and its latest listings will be the main e
 For consuming the APIs it will be used the python language with the libraries requests and json. \
 The request library in important because is the one who help the program to interact with the API. Nevertheless the json library is equally important because this is the data format of the endpoint response.
 
-
-
 ## Backend
 
 For the backend development  Python was used. The library requests was essential to the program because allowed to this one to interact with the API and their exceptions. Moreover flask was used; a framework written in python that allows to create a web page.&#x20;
@@ -39,9 +37,7 @@ The second function its called filtered data and has two parameters data and sym
 The third function is called coin\_dictionary. The function is used for creating dictionaries with relevant info of specific coins, such as price, logo, slug, description, the source code and the websites.
 
 For the fourth function its necessary to import flask and its dependencies.\
-This function it's called html, and is the one responsible for consuming the API and interact with the frontend. The function itself do not get any parameters and the main purpose of this is to generates the dictionaries with the coin\_dictiornary function, to get the top 10 listings and render this info in the html web page.\
-\
-
+This function it's called html, and is the one responsible for consuming the API and interact with the frontend. The function itself do not get any parameters and the main purpose of this is to generates the dictionaries with the coin\_dictiornary function, to get the top 10 listings and render this info in the html web page.
 
 ## Frontend
 
@@ -50,13 +46,15 @@ This language also helps the communication between the backend and the web page.
 
 This development can eventually change with the opinion of a UX/UI expert that can put their knowledge of design and UX knowhow into practice.
 
-
-
 ## Improvements
 
 The web app can possibly suffer some improvements in areas like the design of the webpage or the functionalities of this one. \
 Also the app can consume more APIs and present more relevant information regarding to crypto knowledge.\
 Further improvements will be made along new functionalities.
+
+## Potential of the web app
+
+The potential of this app lies in the adaptability to the CPA (Cost per action) or CPC (cost per click) business model where the app would offer different courses (consumed and present on screen with an API) and charge commission each time a user enters to the app or does a course.
 
 ## Documentation
 
