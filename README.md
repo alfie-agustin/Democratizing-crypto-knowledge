@@ -37,7 +37,7 @@ The second function its called filtered data and has two parameters data and sym
 The third function is called coin\_dictionary. The function is used for creating dictionaries with relevant info of specific coins, such as price, logo, slug, description, the source code and the websites.
 
 For the fourth function its necessary to import flask and its dependencies.\
-This function it's called html, and is the one responsible for consuming the API and interact with the frontend. The function itself do not get any parameters and the main purpose of this is to generates the dictionaries with the coin\_dictiornary function or to get the top 10 listings.This information will be render at the end of the code into a html web page.
+This function it's called html, and is the one responsible for consuming the API and interact with the frontend. The function itself do not get any parameters and the main purpose of this is to generates the dictionaries with the coin\_dictiornary function or to get the top 10 listings.This information will be render at the end of the function into a html web page.
 
 ## Frontend
 
