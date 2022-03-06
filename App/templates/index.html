@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Democratizing The Cryptocurrencies knowledge</title>
+</head>
+<body style = "background-color: beige;">
+    <h1> Democratizing the Cryptocurrencies knowledge</h1>
+    <p> This website is aim to anyone who wants to start 
+        expanding their knowledge in the crypto world and 
+        their technologies.
+    </p>
+
+    <img src="{{btc['logo']}}">
+    {{btc['slug']}}<br/>
+    {{btc['price']}}<br/>
+    {{btc['descripcion']}}<br/>
+    <a href = "{{btc['source_code']}}" > source code</a><br/>
+    <a href = "{{btc['website']}}" > website</a>
+
+    <br/><hr/><br/>
+    
+    <img src="{{eth['logo']}}">
+    {{eth['slug']}}<br/>
+    {{eth['price']}}<br/>
+    {{eth['descripcion']}}<br/>
+    <a href = "{{eth['source_code']}}" > source code</a><br/>
+    <a href = "{{eth['website']}}" > website</a>
+
+    <hr/> <br/><br/>
+
+    <h2> Buy and sell crypto</h2>
+    <p>Anyone who decides to exchange crypto can do it via 
+        exchange platforms such as binance, crypto.com or coinbase.
+        Nevertheless you can chek the listings of the coins in platforms
+        such as CoinMarketCap, which is the  world's most-referenced 
+        price-tracking website
+    </p>
+    {%for coin in coins%}
+	    <li class="list-group-item">
+		<div>
+		Coin: <b>{{coin.name}}</b>
+		</div>			({{coin.symbol}}) - Price: USD {{coin.quote.USD.price}}
+	
+		</li>
+	{%endfor%}
+    <h1>
+        Learn more about cryptocurrencies!
+    </h1>
+    <p>
+        If you want to learn more about cryptocurrencies we recomend you to
+        start investigating for yourself, you can start with this youtube videos 
+        that can help you introduce to the blockchain tech and cryptos. 
+    
+    </p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1YyAzVmP9xQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SSo_EIwHSd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </body>
+</html>
